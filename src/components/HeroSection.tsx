@@ -74,7 +74,7 @@ function HeroSection() {
 
           {/* Features List */}
           <div className="bg-sky-100 p-3 sm:p-4 rounded-xl sm:rounded-2xl">
-            <ul className="space-y-2 text-gray-700 text-xs sm:text-sm md:text-base">
+            <ul className="space-y-2 text-gray-800 text-xs sm:text-sm md:text-base">
               <li className="flex items-center">
                 <span className="text-blue-500 mr-2"><GiCheckMark /></span> Professional Projects Done
               </li>
