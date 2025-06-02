@@ -71,8 +71,8 @@ function ServicesSection() {
   return (
     <section className="bg-blue-900 py-8 px-4 sm:px-6 md:py-12 lg:py-16" id="services">
       <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-white font-bold mb-6 sm:mb-8 md:mb-12">
-          We provide our customers with<br className="sm:hidden" />top-notch services
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-white mb-2 sm:mb-4 md:mb-2">
+          We provide our customers with<br />top-notch services
         </h2>
 
         <div className="flex justify-center items-center mb-6 sm:mb-8 md:mb-10">
@@ -81,10 +81,10 @@ function ServicesSection() {
             height="100"
             viewBox="0 0 300 150"
             preserveAspectRatio="xMidYMid meet"
-            className="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[350px]"
+            className="w-[300px] sm:w-[250px] md:w-[300px] lg:w-[600px] md:-ml-40 lg:-ml-56"
           >
             <path
-              d="M 0,70 Q 150,0 300,70"
+              d="M 0,50 Q 200,0 600,60"
               stroke="#60A5FA"
               strokeWidth="6"
               fill="none"
@@ -98,10 +98,10 @@ function ServicesSection() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl sm:rounded-2xl px-4 sm:px-6 py-6 sm:py-8 shadow-md min-w-[80vw] max-w-[400px] snap-center"
+                className="bg-white rounded-xl sm:rounded-2xl px-4 sm:px-6 py-14 sm:py-8 shadow-md min-w-[90vw] max-w-[500px] snap-center"
               >
                 <div className="grid grid-cols-2 items-start">
-                  <div className="w-8 sm:w-10 h-8 sm:h-10 bg-blue-100 rounded-full mb-3 sm:mb-4 flex items-center justify-center">
+                  <div className="w-10 h-10 bg-blue-100 rounded-full mb-3 sm:mb-4 flex items-center justify-center">
                     <span className="text-blue-300 font-extrabold text-base sm:text-xl">
                       {service.icon}
                     </span>
@@ -111,10 +111,10 @@ function ServicesSection() {
                     <span className="ml-1">{service.mentor}</span>
                   </div>
                 </div>
-                <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 mb-1 sm:mb-2">
+                <h3 className="text-xl sm:text-lg md:text-xl text-gray-900 mb-1 sm:mb-2">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-xs sm:text-sm leading-tight">
+                <p className="text-gray-600 text-md sm:text-sm leading-tight">
                   {service.description}
                 </p>
               </div>
@@ -124,9 +124,9 @@ function ServicesSection() {
 
         {/* Progress Bar for Mobile */}
         <div className="md:hidden mt-3 sm:mt-4 px-2 sm:px-4">
-          <div className="w-full h-2 bg-blue-200 rounded-full overflow-hidden">
+          <div className="w-full h-1 bg-blue-500 rounded-full overflow-hidden">
             <div
-              className="h-full bg-blue-600 transition-all duration-300"
+              className="h-full bg-white transition-all duration-300"
               style={{ width: `${progress}%` }}
             ></div>
           </div>

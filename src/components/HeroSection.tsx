@@ -9,15 +9,15 @@ function HeroSection() {
         <p className="text-black text-sm sm:text-base md:text-lg uppercase tracking-widest">
           Welcome to FreshTech Innovations
         </p>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mt-2 md:mt-3">
+        <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mt-2 md:mt-3">
           Elevate your <span className="text-white bg-blue-900 px-2 rounded-lg">skills</span> and{' '}
           <span className="text-white bg-sky-200 px-2 rounded-lg">business</span> with SkillCraft
-          <p className="mt-2 text-xl sm:text-2xl md:text-3xl">Learning and services redefined</p>
+          <p className="mt-2 text-4xl sm:text-2xl md:text-6xl">earning and services redefined</p>
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 mt-3 md:mt-4">
           We are the Ultimate Learning and Digital Agency Hub.
         </p>
-        <button className="border border-blue-800 text-black px-4 py-3 sm:px-6 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors mt-4 sm:mt-5">
+        <button className="border border-blue-800 text-black px-4 py-3 sm:px-6 sm:py-4 w-60 sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors mt-4 sm:mt-5">
           Work with us
         </button>
       </header>
@@ -34,38 +34,38 @@ function HeroSection() {
         </div>
 
         {/* Services and Features */}
-        <div className="w-full md:w-1/3 flex flex-col gap-4 sm:gap-6">
+        <div className="w-full md:w-1/4 flex flex-col gap-4 sm:gap-6">
           {/* Services */}
           <div className="relative bg-sky-100 py-4 px-3 sm:px-4 rounded-2xl sm:rounded-3xl h-[30vh] sm:h-[32vh] md:h-[34vh]">
-            {/* Service Labels with Tilt */}
+            
             <div className="relative flex flex-col items-center justify-center h-full text-foreground">
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[8deg] sm:rotate-[7deg] top-[5%] sm:top-[10%] right-[45%] sm:right-[40%]"
+                className="absolute px-16 sm:px-14 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[8deg] sm:rotate-[7deg] top-[5%] sm:top-[10%] right-[45%] sm:right-[40%]"
               >
                 Branding
               </span>
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[35deg] bottom-[70%] sm:bottom-[76%] right-[-5%] sm:right-[-2%]"
+                className="absolute px-16 sm:px-12 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[35deg] bottom-[70%] sm:bottom-[76%] right-[-5%] sm:right-[-10%]"
               >
                 Product Design
               </span>
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium -rotate-[10deg] top-[40%] sm:top-[45%] right-[40%] sm:right-[35%]"
+                className="absolute px-16 sm:px-12 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium -rotate-[10deg] top-[34%] sm:top-[35%] right-[40%] sm:right-[35%]"
               >
                 Tech Support
               </span>
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[5deg] top-[60%] sm:top-[65%] left-[40%] sm:left-[45%]"
+                className="absolute px-16 sm:px-14 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[10deg] top-[54%] sm:top-[55%] left-[48%] sm:left-[45%]"
               >
                 Trading
               </span>
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[0deg] bottom-[5%] sm:bottom-[4%] left-[5%] sm:left-[10%]"
+                className="absolute px-16 sm:px-14 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[0deg] bottom-[14%] sm:bottom-[16%] left-[7%] sm:left-[10%]"
               >
                 Web Development
               </span>
               <span
-                className="absolute px-6 sm:px-8 py-2 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[0deg] top-[90%] sm:top-[95%] right-[15%] sm:right-[20%]"
+                className="absolute px-16 sm:px-14 py-3 bg-white text-gray-800 rounded-full text-xs sm:text-sm font-medium rotate-[0deg] top-[87%] sm:top-[89%] right-[20%] sm:right-[27%]"
               >
                 And More
               </span>

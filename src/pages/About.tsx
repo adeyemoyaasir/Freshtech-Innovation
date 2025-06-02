@@ -88,7 +88,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
             <div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-6 md:mb-8">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
                 Our Story
               </h2>
               <div className="space-y-4 sm:space-y-6 md:space-y-8">
@@ -116,7 +116,7 @@ const About = () => {
                     </span>
                   </div>
                   <div>
-                    <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-black mb-1 sm:mb-2">
+                    <h3 className="text-lg sm:text-lg md:text-xl lg:text-2xl font-bold text-black mb-1 sm:mb-2">
                       {item.title}
                     </h3>
                     <p className="text-black text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
@@ -133,9 +133,9 @@ const About = () => {
       {/* Mission Section */}
       <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16">
         <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-black font-bold mb-6 sm:mb-8 md:mb-10">
-            Our Mission
-          </h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
+                Our Mission
+              </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
               {missionItems.map((text, index) => (
@@ -174,9 +174,9 @@ const About = () => {
       {/* Vision Section */}
       <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16">
         <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-black font-bold mb-6 sm:mb-8 md:mb-10">
-            Our Vision
-          </h2>
+           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
+                Our Vision
+              </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
             <div className="relative bg-sky-200 p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
               <img
