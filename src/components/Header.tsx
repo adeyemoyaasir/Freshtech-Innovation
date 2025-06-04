@@ -31,9 +31,9 @@ const Header = () => {
             <img
               src="https://ik.imagekit.io/xprogrammer/images/Freshtech%20Innovations%20Secondary%20SVG.svg?updatedAt=1749065161209"
               alt="Mobile Logo"
-              className="md:hidden w-[70px] h-[50px] object-cover bg-transparent mix-blend-multiply"
+              className="md:hidden w-[80px] h-[60px] object-cover bg-transparent mix-blend-multiply -ml-8"
             />
-            <span className="sr-only">Freshtech Innovations</span>
+           
           </Link>
         </div>
 

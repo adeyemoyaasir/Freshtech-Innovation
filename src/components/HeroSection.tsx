@@ -7,7 +7,7 @@ function HeroSection() {
       {/* Header Section */}
       <header className="text-center mb-6 sm:mb-8 md:mb-10">
         <p className="text-black text-sm sm:text-base md:text-2xl tracking-widest">
-          Welcome to FreshTech Innovations
+          Welcome to freshtech innovation
         </p>
         <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mt-2 md:mt-3 max-w-7xl">
           Elevate your <span className="text-white bg-[#03055B] px-2 rounded-lg">skills</span> and{' '}

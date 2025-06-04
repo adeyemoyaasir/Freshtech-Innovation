@@ -106,7 +106,7 @@ function ServicesSection() {
                       {service.icon}
                     </span>
                   </div>
-                  <div className="text-gray-900 text-xs sm:text-sm flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
+                  <div className="text-gray-900 text-md sm:text-sm flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
                     <span className="font-bold">Mentor: </span>
                     <span className="ml-1">{service.mentor}</span>
                   </div>
@@ -146,7 +146,7 @@ function ServicesSection() {
                   </span>
                 </div>
                 <div className="text-gray-900 text-sm sm:text-base md:text-md flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-2 -ml-3 rounded-full w-[200px]">
-                  
+                
                   <span className="ml-1"><span className="font-bold">Mentor: </span>{service.mentor}</span>
                 </div>
               </div>
