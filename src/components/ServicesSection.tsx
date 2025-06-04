@@ -69,7 +69,7 @@ function ServicesSection() {
   const progress = (currentIndex / (services.length - 1)) * 100;
 
   return (
-    <section className="bg-blue-900 py-8 px-4 sm:px-6 md:py-12 lg:py-16" id="services">
+    <section className="bg-[#03055B] py-8 px-4 sm:px-6 md:py-12 lg:py-16" id="services">
       <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-white mb-2 sm:mb-4 md:mb-2">
           We provide our customers with<br />top-notch services
@@ -145,9 +145,9 @@ function ServicesSection() {
                     {service.icon}
                   </span>
                 </div>
-                <div className="text-gray-900 text-sm sm:text-base md:text-md flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
-                  <span className="font-bold">Mentor: </span>
-                  <span className="ml-1">{service.mentor}</span>
+                <div className="text-gray-900 text-sm sm:text-base md:text-md flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-2 -ml-3 rounded-full w-[200px]">
+                  
+                  <span className="ml-1"><span className="font-bold">Mentor: </span>{service.mentor}</span>
                 </div>
               </div>
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-1 sm:mb-2">

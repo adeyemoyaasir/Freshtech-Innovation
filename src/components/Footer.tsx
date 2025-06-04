@@ -10,7 +10,7 @@ const Footer = () => {
             freshtechinnovations@gmail.com
           </div>
         </div>
-        <div className="text-white text-lg md:text-xl text-center md:text-right">
+        <div className="text-white text-lg md:text-xl text-right">
           Freshtech Innovations LTD
         </div>
       </div>

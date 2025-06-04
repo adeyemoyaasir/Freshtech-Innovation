@@ -49,7 +49,7 @@ const About = () => {
 
       {/* Get To Know Us Section */}
       <section className="py-8 px-4 sm:px-6 md:py-12 lg:py-16">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-left md:text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-6 md:mb-8">
             Get To Know Us
           </h1>
@@ -134,7 +134,7 @@ const About = () => {
       <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16">
         <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
-                Our Mission
+                Our mission
               </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
@@ -151,7 +151,7 @@ const About = () => {
                 </div>
               ))}
             </div>
-            <div className="relative bg-blue-900 p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
+            <div className="relative bg-[#03055B] p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
               <img
                 src="https://ik.imagekit.io/xprogrammer/images/im%203.png?updatedAt=1748790652688"
                 alt="Team collaboration"

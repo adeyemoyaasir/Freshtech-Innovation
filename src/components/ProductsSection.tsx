@@ -5,8 +5,8 @@ const ProductsSection = () => {
   return (
     <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16" id="products">
       <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-blue-800 font-bold mb-6 sm:mb-8 md:mb-2">
-          Proudly Made Products
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center text-black mb-6 sm:mb-8 md:mb-2">
+          Proudly made products
         </h2>
 
         <div className="flex justify-center items-center mb-1 sm:mb-8 md:mb-10">
@@ -19,8 +19,8 @@ const ProductsSection = () => {
           >
             <path
               d="M 0,50 Q 200,0 600,60"
-              stroke="#1e3a8a"
-              strokeWidth="6"
+              stroke="#03055B"
+              strokeWidth="7"
               fill="none"
             />
           </svg>
