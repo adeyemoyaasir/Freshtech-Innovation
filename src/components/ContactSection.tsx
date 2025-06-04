@@ -5,16 +5,17 @@ import { LuSquareArrowOutUpRight } from "react-icons/lu";
 const ContactSection = () => {
   return (
     <section className="bg-black py-12 px-4 sm:px-6 md:py-16" id="contact">
-      <div className="max-w-9xl mx-auto ml-2 md:ml-80">
+      <div className="max-w-9xl mx-auto ml-2 md:ml-80 relative">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-     <div className="flex-1">
-  <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-6 leading-tight">
-    GOT AN IDEA? LET'S HAVE A CONVERSATION  
-    <button className="bg-white text-gray-900 text-[16px] sm:text-lg md:text-xl px-4 py-2 sm:px-6 sm:py-3 w-40 md:w-80 h-auto rounded-full hover:bg-gray-200 transition-colors ">
-       Email Address
-    </button>
-  </h2>
-</div>
+          {/* Left Section: Heading and Button */}
+          <div className="flex-1">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-6 leading-tight">
+              GOT AN IDEA? LET'S HAVE A CONVERSATION  
+              <button className="bg-white text-gray-900 text-[16px] sm:text-lg md:text-xl px-4 py-2 sm:px-6 sm:py-3 w-40 md:w-80 h-auto rounded-full hover:bg-gray-200 transition-colors">
+                Email Address
+              </button>
+            </h2>
+          </div>
 
           {/* Right Section: Contact Links */}
           <div className="flex-1">
@@ -62,6 +63,15 @@ const ContactSection = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Bottom Left Image */}
+        <div className="mt-8">
+          <img
+            src="https://ik.imagekit.io/xprogrammer/images/Freshtech%20Innovations%20Primary%20PNG%20(1).png?updatedAt=1749069922370"
+            alt="Freshtech Innovations Logo"
+            className="w-[100px] h-[50px] object-contain bg-transparent"
+          />
         </div>
       </div>
     </section>
