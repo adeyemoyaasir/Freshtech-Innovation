@@ -11,8 +11,8 @@ const ContactSection = () => {
           <div className="flex-1">
             <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-6 leading-tight">
               GOT AN IDEA? LET'S HAVE A CONVERSATION  
-              <button className="bg-white text-gray-900 text-[16px] sm:text-lg md:text-xl px-4 py-2 sm:px-6 sm:py-3 w-40 md:w-80 h-auto rounded-full hover:bg-gray-200 transition-colors">
-                Email Address
+              <button className="bg-white text-gray-900 text-[16px] sm:text-lg md:text-xl px-4 py-4 sm:px-6 sm:py-3 w-full md:w-80 h-auto rounded-full hover:bg-gray-200 transition-colors">
+                Copy our Email Address
               </button>
             </h2>
           </div>

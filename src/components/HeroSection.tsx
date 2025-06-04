@@ -9,10 +9,10 @@ function HeroSection() {
         <p className="text-black text-sm sm:text-base md:text-2xl tracking-widest">
           Welcome to freshtech innovation
         </p>
-        <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mt-2 md:mt-3 max-w-7xl">
+        <h1 className="text-[40px] sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mt-2 md:mt-3 max-w-7xl">
           Elevate your <span className="text-white bg-[#03055B] px-2 rounded-lg">skills</span> and{' '}
           <span className="text-white bg-sky-200 px-2 rounded-lg">business</span> with SkillCraft{' '}
-          <span className="mt-2 text-4xl sm:text-2xl md:text-6xl">earning and services redefined.</span>
+          <span className="mt-2 text-4xl sm:text-2xl md:text-6xl">earning and Services Redefined.</span>
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 mt-3 md:mt-4 hidden md:block">
           We are the Ultimate Learning and Digital Agency Hub.

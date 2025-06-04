@@ -106,7 +106,7 @@ function ServicesSection() {
                       {service.icon}
                     </span>
                   </div>
-                  <div className="text-gray-900 text-md sm:text-sm flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-1 rounded-full">
+                  <div className="text-gray-900 text-sm sm:text-sm flex items-center justify-end bg-gray-100 px-2 sm:px-3 py-2 rounded-full">
                     <span className="font-bold">Mentor: </span>
                     <span className="ml-1">{service.mentor}</span>
                   </div>
