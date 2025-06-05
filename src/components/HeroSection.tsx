@@ -18,7 +18,7 @@ function HeroSection() {
           We are the Ultimate Learning and Digital Agency Hub.
         </p>
          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 mt-3 md:mt-4 block md:hidden">
-          Fresh tech Innovation the Ultimate Learning and Digital Agency Hub
+          Fresh tech Innovation the Ultimate <br/> Learning and Digital Agency Hub
         </p>
         <button className="border border-blue-800 text-black px-4 py-3 sm:px-6 sm:py-4 w-60 sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors mt-4 sm:mt-5">
           Work with us
