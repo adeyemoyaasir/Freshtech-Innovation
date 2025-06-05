@@ -97,7 +97,7 @@ const Services = () => {
           <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 leading-relaxed">
             Don't miss out on the opportunity to collaborate with industry experts and explore what's possible in the digital world. Ready to embark on a transformative experience with us?
           </p>
-          <button className="shadow-lg border border-blue-800 text-black px-4 sm:px-6 py-3 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors">
+          <button className="border border-blue-800 text-black px-4 sm:px-6 py-3 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors">
             Work with us
           </button>
         </div>

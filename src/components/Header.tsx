@@ -76,11 +76,13 @@ const Header = () => {
             </button>
           </div>
           <nav className="flex flex-col items-center space-y-6 py-6">
+             <Link to="/" className="flex items-center">
             <img
               src="https://ik.imagekit.io/xprogrammer/images/Freshtech%20Innovations%20Primary%20SVG.svg?updatedAt=1748993558403"
               alt="Mobile Logo"
               className="w-[150px] h-[50px] object-cover bg-transparent mix-blend-multiply"
             />
+           </Link>
             <h2 className="text-2xl">Our Agency</h2>
             <Link
               to="/about"
