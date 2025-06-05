@@ -64,15 +64,6 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-
-        {/* Bottom Left Image */}
-        <div className="mt-8">
-          <img
-            src="https://ik.imagekit.io/xprogrammer/images/Freshtech%20Innovations%20Primary%20PNG%20(1).png?updatedAt=1749069922370"
-            alt="Freshtech Innovations Logo"
-            className="w-[100px] h-[50px] object-contain bg-transparent"
-          />
-        </div>
       </div>
     </section>
   );
