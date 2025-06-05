@@ -38,7 +38,10 @@ const Products = () => {
                 className="w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] object-cover rounded-t-2xl"
               />
             </div>
-            <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 ml-3 sm:ml-4">
+             <p className="text-gray-900 text-2xl sm:text-2xl md:text-3xl lg:text-3xl mb-3 sm:mb-4 ml-3 sm:ml-4 hidden md:block">
+              FreshPays - Send Money to Nigeria from <br/> UK with Ease
+            </p>
+            <p className="text-gray-900 text-2xl sm:text-2xl md:text-3xl lg:text-3xl mb-3 sm:mb-4 ml-3 sm:ml-4 block md:hidden">
               FreshPays - Send Money to Nigeria from UK with Ease
             </p>
             <div className="ml-3 sm:ml-4 mb-3 sm:mb-4">
@@ -60,8 +63,11 @@ const Products = () => {
                 className="w-full h-[200px] sm:h-[250px] md:h-[300px] lg:h-[350px] object-cover rounded-t-2xl"
               />
             </div>
-            <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 ml-3 sm:ml-4">
+           <p className="text-gray-900 text-xl sm:text-2xl md:text-3xl lg:text-3xl mb-3 sm:mb-4 ml-3 sm:ml-4 hidden md:block">
               SubSum - A doorway to fast-growing and trustworthy bill payment facilitator in Nigeria
+            </p>
+            <p className="text-gray-900 text-2xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 ml-3 sm:ml-4 block md:hidden">
+              SubSum - The best place to buy affordable Data , Airtime and other trustworthy bills payment in Nigeria
             </p>
             <div className="ml-3 sm:ml-4 mb-3 sm:mb-4">
               <a

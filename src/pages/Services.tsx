@@ -47,7 +47,7 @@ const Services = () => {
     <div className="min-h-screen">
       <Header />
       
-      <section className="bg-white py-16 px-6">
+      <section className="bg-white py-16 px-3">
         <div className="max-w-full md:max-w-7xl mx-auto">
           <div className="space-y-8">
             {services.map((service, index) => (
@@ -56,7 +56,7 @@ const Services = () => {
                   <img 
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-44 sm:h-72 md:h-80 lg:h-96 rounded-3xl"
+                    className="w-full h-40 sm:h-72 md:h-80 lg:h-96 rounded-3xl"
                   />
                 </div>
                 
