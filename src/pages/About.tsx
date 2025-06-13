@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContactSection from '../components/ContactSection';
 import { GiCheckMark } from "react-icons/gi";
+import MissionSection from '@/components/MissionSection';
+import VissionImgCard from '@/components/helpers/VissionImgCard';
 
 const About = () => {
   const story = [
@@ -131,6 +133,9 @@ const About = () => {
       </section>
 
       {/* Mission Section */}
+      {
+        /**
+         * 
       <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16">
         <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
@@ -170,6 +175,9 @@ const About = () => {
           </div>
         </div>
       </section>
+         */
+      }
+      <MissionSection />
 
      
       {/* Vision Section */}
@@ -179,22 +187,26 @@ const About = () => {
                 Our Vision
               </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
-            <div className="relative bg-sky-200 p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
-              <img
-                src="https://ik.imagekit.io/xprogrammer/images/im%207.png?updatedAt=1748790653888"
-                alt="Team collaboration"
-                className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
-              />
-              <div className="absolute top-4 sm:top-6 md:top-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Creative Solutions
-              </div>
-              <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Top-Notch Education
-              </div>
-              <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-2 sm:right-3 md:right-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Successful Story
-              </div>
-            </div>
+            {/**
+             * 
+             <div className="relative bg-sky-200 p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
+               <img
+                 src="https://ik.imagekit.io/xprogrammer/images/im%207.png?updatedAt=1748790653888"
+                 alt="Team collaboration"
+                 className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
+               />
+               <div className="absolute top-4 sm:top-6 md:top-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+                 Creative Solutions
+               </div>
+               <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+                 Top-Notch Education
+               </div>
+               <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-2 sm:right-3 md:right-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+                 Successful Story
+               </div>
+             </div>
+             */}
+             <VissionImgCard />
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
               {visionItems.map((text, index) => (
                 <div key={index} className="flex items-start space-x-3 sm:space-x-4">
@@ -234,7 +246,9 @@ const About = () => {
                 </div>
               ))}
             </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center mt-4">
+            {/**
+             * 
             <div className="relative bg-sky-200 p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
               <img
                 src="https://ik.imagekit.io/xprogrammer/images/im%207.png?updatedAt=1748790653888"
@@ -251,6 +265,8 @@ const About = () => {
                 Successful Story
               </div>
             </div>
+             */}
+            <VissionImgCard />
            
           </div>
         </div>

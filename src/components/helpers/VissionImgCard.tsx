@@ -1,23 +1,23 @@
-import MissionImg from '../../assest/img/mission.png'
-import MissionImgTwo from '../../assest/img/mission2.png'
+import VissionImg from '../../assest/img/vission.png'
+import VissionImgTwo from '../../assest/img/vission2.png'
 
 
-const MissionImgCard = () => {
+const VissionImgCard = () => {
     return (
         <div className="">
             {/* VISIBLE ON 768PX AND ABOVE */}
             <img 
-                src={MissionImg}
+                src={VissionImg}
                 className="hidden md:block"
             />
 
             {/* VISIBLE ON 768PX AND BELOW */}
             <img 
-                src={MissionImgTwo}
+                src={VissionImgTwo}
                 className="block md:hidden"
             />
         </div>
     )
 }
 
-export default MissionImgCard
+export default VissionImgCard

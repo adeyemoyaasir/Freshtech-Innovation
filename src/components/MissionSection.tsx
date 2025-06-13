@@ -36,7 +36,6 @@ const MissionSection = () => {
           {/* Image with Labels */}
           {/**
            * 
-           */}
            <div className="relative bg-[#03055B] p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
              <div className="relative w-full h-full">
                <img
@@ -58,10 +57,11 @@ const MissionSection = () => {
                Digital Studio
              </div>
            </div>
+           */}
            {/**
             * 
-           <MissionImgCard />
             */}
+            <MissionImgCard />
         </div>
       </div>
     </section>
