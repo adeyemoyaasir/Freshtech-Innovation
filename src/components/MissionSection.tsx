@@ -1,5 +1,6 @@
 import React from 'react';
 import { GiCheckMark } from "react-icons/gi";
+import MissionImgCard from './helpers/MissionImgCard';
 
 const MissionSection = () => {
   return (
@@ -33,30 +34,34 @@ const MissionSection = () => {
           </div>
 
           {/* Image with Labels */}
-          <div className="relative bg-[#03055B] p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
-            <div className="relative w-full h-full">
-              <img
-                src="https://ik.imagekit.io/xprogrammer/images/im%203.png?updatedAt=1748790652688"
-                alt="Team collaboration"
-                className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
-              />
-            </div>
-
-            {/* Top Left Label */}
-            <div className="absolute top-4 sm:top-6 md:top-8 left-2 sm:left-3 md:left-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-              Tech & Design Studio
-            </div>
-
-            {/* Bottom Left Label */}
-            <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-2 sm:left-3 md:left-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-              Innovative Tech Solutions
-            </div>
-
-            {/* Bottom Right Label */}
-            <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-2 sm:right-3 md:right-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-              Digital Studio
-            </div>
-          </div>
+          {/**
+           * 
+           */}
+           <div className="relative bg-[#03055B] p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
+             <div className="relative w-full h-full">
+               <img
+                 src="https://ik.imagekit.io/xprogrammer/images/im%203.png?updatedAt=1748790652688"
+                 alt="Team collaboration"
+                 className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
+               />
+             </div>
+ 
+             <div className="absolute top-4 sm:top-6 md:top-8 left-2 sm:left-3 md:left-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+               Tech & Design Studio
+             </div>
+ 
+             <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-2 sm:left-3 md:left-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+               Innovative Tech Solutions
+             </div>
+ 
+             <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-2 sm:right-3 md:right-4 bg-white text-black px-4 sm:px-6 md:px-8 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
+               Digital Studio
+             </div>
+           </div>
+           {/**
+            * 
+           <MissionImgCard />
+            */}
         </div>
       </div>
     </section>

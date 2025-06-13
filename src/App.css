@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.curved-image {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
