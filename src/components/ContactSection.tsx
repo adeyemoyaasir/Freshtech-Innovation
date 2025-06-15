@@ -22,7 +22,11 @@ const ContactSection = () => {
             <h2 className="text-2xl sm:text-3xl text-white font-bold mb-6">CONTACT</h2>
             <div className="space-y-4">
               <a
+<<<<<<< HEAD
                 href="https://www.facebook.com/share/14vb4GDk6M/"
+=======
+                href="https://www.facebook.com/Freshtechltd01"
+>>>>>>> b871fbc (added socials)
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
@@ -32,7 +36,11 @@ const ContactSection = () => {
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
               <a
+<<<<<<< HEAD
                 href="http://Instagram.com/freshtechltd"
+=======
+                href="https://Instagram.com/freshtechltd"
+>>>>>>> b871fbc (added socials)
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-pink-400 transition-colors"
@@ -52,7 +60,11 @@ const ContactSection = () => {
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
               <a
+<<<<<<< HEAD
                 href="http://x.com/freshtechltd01"
+=======
+                href="https://x.com/freshtechltd01"
+>>>>>>> b871fbc (added socials)
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
