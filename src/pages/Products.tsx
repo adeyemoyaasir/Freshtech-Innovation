@@ -82,7 +82,7 @@ const Products = () => {
         </div>
       </section>
 
-     <section className="py-16 px-6 bg-sky-100 mb-10">
+     <section className="py-16 px-6 bg-sky-100 mb-10 hidden md:block">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl font-bold text-center mb-8">Our Customer Says</h2>
     <div className="grid grid-cols-2 gap-6">
@@ -94,6 +94,9 @@ const Products = () => {
       ))}
     </div>
   </div>
+</section>
+  <section className="py-2 px-1 block md:hidden">
+ 
 </section>
       <ContactSection />
       <Footer />

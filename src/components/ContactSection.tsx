@@ -31,7 +31,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
               >
-                <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" className="w-10 h-10 sm:w-6 sm:h-6 bg-white" />
+                <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" className="w-5 h-5 sm:w-7 sm:h-7 bg-white" />
                 <span>Facebook</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
@@ -45,7 +45,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-pink-400 transition-colors"
               >
-                <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" className="w-10 h-10 sm:w-6 sm:h-6 rounded-sm" />
+                <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" className="w-5 h-5 sm:w-7 sm:h-7 rounded-sm" />
                 <span>Instagram</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
@@ -55,7 +55,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-500 transition-colors"
               >
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" className="w-10 h-10 sm:w-6 sm:h-6" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" className="w-5 h-5 sm:w-7 sm:h-7" />
                 <span>LinkedIn</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
@@ -69,7 +69,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
               >
-                <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" className="w-10 h-10 sm:w-6 sm:h-6" />
+                <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" className="w-5 h-5 sm:w-7 sm:h-7" />
                 <span>X </span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
