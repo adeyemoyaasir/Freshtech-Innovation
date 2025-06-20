@@ -92,10 +92,10 @@ const Services = () => {
         </div>
       </section>
   
-      <section className="bg-sky-100 py-8 px-4 sm:py-10 sm:px-6 md:py-12 lg:py-16 w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto rounded-2xl mb-8 sm:mb-10">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="bg-sky-100 py-8 px-4 sm:py-10 sm:px-6 md:py-12 lg:py-10 w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto rounded-2xl mb-8 sm:mb-10">
+        <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 leading-relaxed">
-            Don't miss out on the opportunity to collaborate with industry experts and explore what's possible in the digital world. Ready to embark on a transformative experience with us?
+            Don't miss out on the opportunity to collaborate with industry experts and redefine what's possible in the digital world. Ready to embark on a transformative experience?
           </p>
           <button className="border border-blue-800 text-black px-4 sm:px-6 py-3 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors">
             Work with us

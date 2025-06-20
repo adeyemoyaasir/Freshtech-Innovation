@@ -10,7 +10,7 @@ const ContactSection = () => {
           {/* Left Section: Heading and Button */}
           <div className="flex-1">
             <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-6 leading-tight flex flex-col gap-4">
-              GOT AN IDEA? LET'S HAVE A CONVERSATION  
+              GOT AN IDEA? LET'S HAVE A CONVERSATION
               <button className="bg-white text-gray-900 text-[16px] sm:text-lg md:text-xl px-4 py-4 sm:px-6 sm:py-3 w-full md:w-80 h-auto rounded-full hover:bg-gray-200 transition-colors">
                 Copy our Email Address
               </button>
@@ -22,30 +22,30 @@ const ContactSection = () => {
             <h2 className="text-2xl sm:text-3xl text-white font-bold mb-6">CONTACT</h2>
             <div className="space-y-4">
               <a
-<<<<<<< HEAD
-                href="https://www.facebook.com/share/14vb4GDk6M/"
-=======
+
+
+
                 href="https://www.facebook.com/Freshtechltd01"
->>>>>>> b871fbc (added socials)
+
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
               >
-                <FaFacebookF className="w-5 h-5 sm:w-6 sm:h-6" />
+                <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" className="w-10 h-10 sm:w-6 sm:h-6 bg-white" />
                 <span>Facebook</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
               <a
-<<<<<<< HEAD
-                href="http://Instagram.com/freshtechltd"
-=======
+
+
+
                 href="https://Instagram.com/freshtechltd"
->>>>>>> b871fbc (added socials)
+
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-pink-400 transition-colors"
               >
-                <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6" />
+                <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" className="w-10 h-10 sm:w-6 sm:h-6 rounded-sm" />
                 <span>Instagram</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
@@ -55,22 +55,22 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-500 transition-colors"
               >
-                <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" className="w-10 h-10 sm:w-6 sm:h-6" />
                 <span>LinkedIn</span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
               <a
-<<<<<<< HEAD
-                href="http://x.com/freshtechltd01"
-=======
+
+
+
                 href="https://x.com/freshtechltd01"
->>>>>>> b871fbc (added socials)
+
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white flex items-center text-lg sm:text-xl md:text-2xl space-x-3 cursor-pointer hover:text-blue-400 transition-colors"
               >
-                <FaXTwitter className="w-5 h-5 sm:w-6 sm:h-6" />
-                <span>X (Formerly Twitter)</span>
+                <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" className="w-10 h-10 sm:w-6 sm:h-6" />
+                <span>X </span>
                 <LuSquareArrowOutUpRight className="w-5 h-5 sm:w-6 sm:h-6 ml-auto" />
               </a>
             </div>

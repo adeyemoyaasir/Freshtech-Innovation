@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContactSection from '../components/ContactSection';
 import { GiCheckMark } from "react-icons/gi";
-import MissionSection from '@/components/MissionSection';
+import MissionImgCard from '@/components/helpers/MissionImgCard';
 import VissionImgCard from '@/components/helpers/VissionImgCard';
 
 const About = () => {
@@ -51,12 +51,15 @@ const About = () => {
 
       {/* Get To Know Us Section */}
       <section className="py-8 px-4 sm:px-6 md:py-12 lg:py-16">
-        <div className="max-w-4xl mx-auto text-left md:text-center">
+        <div className="max-w-5xl mx-auto text-left md:text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-6 md:mb-8">
             Get To Know Us
           </h1>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-800 leading-relaxed">
-            At FreshTech Innovations, we leverage cutting-edge technology to craft immersive digital experiences that resonate with audiences. Our passion extends beyond delivering cutting-edge services.
+          <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-800 leading-relaxed hidden md:block">
+            At Freshtech Innovations, we seamlessly blend creativity and technology to craft immersive digital experiences that resonate with audiences. Our passion extends beyond delivering <br/> cutting-edge services.
+          </p>
+           <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-800 leading-relaxed block md:hidden">
+            At FreshTech Innovations, we seamlessly blend creativity and technology to craft immersive digital experiences that resonate with audiences. Our passion extends beyond delivering cutting-edge services - we believe in empowering individuals to thrive in the dynamic world of digital craftmanship.
           </p>
         </div>
       </section>
@@ -109,6 +112,8 @@ const About = () => {
                 ))}
               </div>
             </div>
+
+
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
               {story.map((item, index) => (
                 <div key={index} className="flex items-start">
@@ -133,51 +138,39 @@ const About = () => {
       </section>
 
       {/* Mission Section */}
-      {
-        /**
-         * 
       <section className="bg-white py-8 px-4 sm:px-6 md:py-12 lg:py-16">
-        <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black mb-4 sm:mb-6 md:mb-8">
-                Our mission
-              </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 sm:space-y-6 md:space-y-8">
-              {missionItems.map((text, index) => (
-                <div key={index} className="flex items-start space-x-3 sm:space-x-4">
-                  <div className="h-8 sm:h-10 md:h-12 w-8 sm:w-10 md:w-12 bg-sky-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-black text-base sm:text-lg md:text-xl">
-                      <GiCheckMark />
-                    </span>
-                  </div>
-                  <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                    {text}
-                  </p>
+      <div className="max-w-4xl md:max-w-6xl lg:max-w-7xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl text-black mb-6 sm:mb-8 md:mb-10">
+          Our mission
+        </h2>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 items-center">
+          {/* Text List */}
+          <div className="space-y-4 sm:space-y-6 md:space-y-8">
+            {[
+              "We drive progress through technology and assemble skilled teams for your projects.",
+              "We boost businesses by discussing how tech can supercharge growth and innovation.",
+              "We offer personalized tech tutoring, making learning exciting and engaging.",
+              "We pioneer virtual job roles, creating opportunities for diverse talents worldwide.",
+              "We pioneer virtual job roles, creating opportunities for diverse talents worldwide.",
+            ].map((text, index) => (
+              <div key={index} className="flex items-start space-x-3 sm:space-x-4">
+                <div className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 bg-sky-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-black text-base sm:text-lg md:text-xl">
+                    <GiCheckMark />
+                  </span>
                 </div>
-              ))}
-            </div>
-            <div className="relative bg-[#03055B] p-4 sm:p-6 md:p-8 w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden rounded-xl sm:rounded-2xl mt-6 sm:mt-8 md:mt-0">
-              <img
-                src="https://ik.imagekit.io/xprogrammer/images/im%203.png?updatedAt=1748790652688"
-                alt="Team collaboration"
-                className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
-              />
-              <div className="absolute top-4 sm:top-6 md:top-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Tech & Design Studio
+                <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
+                  {text}
+                </p>
               </div>
-              <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-2 sm:left-3 md:left-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Innovative Tech Solutions
-              </div>
-              <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 right-2 sm:right-3 md:right-4 bg-white text-black px-3 sm:px-4 md:px-6 py-1 sm:py-2 md:py-3 rounded-full text-xs sm:text-sm md:text-base font-medium shadow-md">
-                Digital Studio
-              </div>
-            </div>
+            ))}
           </div>
+
+            <MissionImgCard />
         </div>
-      </section>
-         */
-      }
-      <MissionSection />
+      </div>
+    </section>
 
      
       {/* Vision Section */}
@@ -273,12 +266,12 @@ const About = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-sky-100 py-8 px-4 sm:px-6 md:py-12 lg:py-16">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8 leading-relaxed">
+      <section className="bg-sky-100 py-8 px-4 sm:px-6 md:py-12 lg:py-16 mb-12">
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="text-[#03055B] text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8 leading-relaxed">
             Unlock the full potential of your digital strategy with us. Elevate your brand, boost your skills, and amplify your online presence.
           </p>
-          <button className="border border-blue-800 text-black px-4 sm:px-6 py-3 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl font-semibold hover:bg-blue-900 hover:text-white transition-colors">
+          <button className="border border-[#03055B] text-black px-4 sm:px-6 py-3 sm:py-4 w-full sm:w-64 md:w-72 lg:w-80 rounded-full text-base sm:text-lg md:text-xl hover:bg-[#03055B] hover:text-white transition-colors">
             Work with us
           </button>
         </div>

@@ -6,8 +6,8 @@ function HeroSection() {
     <div className="min-h-screen bg-white flex flex-col items-center py-8 px-4 sm:px-6 md:py-12 lg:py-16">
       {/* Header Section */}
       <header className="text-center mb-6 sm:mb-8 md:mb-10">
-        <p className="text-black text-sm sm:text-base md:text-2xl tracking-widest mb-4">
-          Welcome to freshtech innovation
+        <p className="text-black text-sm sm:text-base md:text-2xl mb-4">
+          Welcome to FreshTech Innovations
         </p>
         <h1 className="text-[40px] sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mt-12 md:mt-3 max-w-7xl">
             <div className="">
